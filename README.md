@@ -19,9 +19,9 @@ the encryption function is:
 
 the decryption function is:
 
-  `D(y) = a^-1(y - b) mod m`
+  `D(y) = a⁻¹(y - b) mod m`
   -  where `y` is the numeric value of an encrypted letter, ie. `y = E(x)`
-  -  it is important to note that `a^-1` is the modular multiplicative inverse
+  -  it is important to note that `a⁻¹` is the modular multiplicative inverse
      of `a mod m`
   -  the modular multiplicative inverse of `a` only exists if `a` and `m` are
      coprime.
